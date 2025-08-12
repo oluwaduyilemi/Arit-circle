@@ -259,7 +259,7 @@ body {
 @media (max-width: 768px) {
     .hero-section{
         margin: 0 auto;
-        width: 600px;
+        width: 768px;
         border: 2px solid red;
     }
 .hero-image{
