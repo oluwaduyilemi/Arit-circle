@@ -256,10 +256,10 @@ body {
     transform: translateX(-50%);
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 768px) {
     .hero-section{
-        margin: 0 5%;
-        width: 380px;
+        margin: 0 auto;
+        width: 600px;
         border: 2px solid red;
     }
 .hero-image{
@@ -269,8 +269,8 @@ body {
     display: flex;
 }
 .hero-image img{
-    width: 26px;
-    height: 26px;
+    width: 30px;
+    height: 30px;
 }
 .hero-image h3{
     font-size: 20px;
@@ -278,7 +278,7 @@ body {
 .hero-text{
     /* width: px; */
     text-align: center;
-    border: 2px solid red;
+    border: 2px solid ;
 }
 .hero-text h1{
     /* width: 350px; */
