@@ -30,10 +30,9 @@ body {
     margin-top: 30px;
     height: 70px;
     padding: 0px 30px;
-   
-    box-shadow: -2px 5px 8px 2px rgba(0,0,0,0.40);
--webkit-box-shadow: -2px 5px 8px 2px rgba(0,0,0,0.40);
--moz-box-shadow: -2px 5px 8px 2px rgba(0,0,0,0.40);
+     box-shadow: -0px 0px 0px 2px rgba(0,0,0,0.40);
+-webkit-box-shadow: -0px 0px 4px 2px rgba(0,0,0,0.40);
+-moz-box-shadow: -0px 1px 4px 2px rgba(0,0,0,0.40);
 }
 .header-menu .logo img{
     height: 10%;
@@ -50,7 +49,7 @@ body {
 }
 #header .header-menu ul li a{
     text-decoration: none;
-    color: #000000;
+    color: #1a1a1a;
     font-weight: 600;
 }
 .header-menu button{
@@ -139,7 +138,7 @@ body {
     margin:  0 10%;
     text-align: center;
     color : #4f46E5;
-    background: linear-gradient(to right, black 10%, #4f46E5);
+    background: linear-gradient(to right, #242424 50%, #4f46E5 );
     font-family: inter, sans-serif;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -151,6 +150,7 @@ body {
 .hero-text h4{
     font-weight: 400;
     line-height: 24px;
+    text-align: center;
     font-size: 16px;
     color: #141414;
 }
@@ -255,4 +255,72 @@ body {
   100% {
     transform: translateX(-50%);
   }
+}
+@media (max-width: 450px) {
+    .hero-section{
+        margin: 0 5%;
+        width: 380px;
+        border: 2px solid red;
+    }
+.hero-image{
+    /* width: 300px; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.hero-image img{
+    width: 26px;
+    height: 26px;
+}
+.hero-image h3{
+    font-size: 20px;
+}
+.hero-text{
+    /* width: px; */
+    text-align: center;
+    border: 2px solid red;
+}
+.hero-text h1{
+    /* width: 350px; */
+    max-width: 347px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    /* height: 96px; */
+    margin-right: 40px;
+    text-align: center;
+}
+.hero-text h4{
+    width: 343px;
+    font-size: 16px;
+    line-height: 24px;
+    height: 72px;
+    text-align: center;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+}
+.join-btn{
+    padding: 10px 30px;
+    width: 100%;
+     /* background-color: #4f46E5; */
+    color: white;
+    border: none;
+    border-radius: 16px;
+    font-size: 16px;
+}
+.learn-btn {
+         padding: 10px 30px;
+     background-color:white;
+    color: #4f46E5;
+    border: 1px #4f46E5 solid;
+    padding: 10px 30px;
+    border-radius: 16px;
+    font-size: 16px;  
+    font-weight: 400;
+    line-height: 100%;
+    width: 100%;
+    font-family: inter,;
+}
 }
